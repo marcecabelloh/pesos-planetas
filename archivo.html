@@ -1,13 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-  <title></title>
+	<meta charset="utf-8">
+	<title></title>
 </head>
 <body>
-  <h1>Tu peso en otro planeta</h1>
-  <p>Calcula tu peso en otro planeta</p>
-  
-  <script src="assets/js/archivo.js"></script>
+	<h1>Tu peso en otro planeta</h1>
+	<p>Calcula tu peso en otro planeta</p>
+	
+
+	<div>
+		<label for="peso"></label>
+		<input type="text" name="pesoPlanetas" id="peso" placeholder="Escribe tu peso aquí" required>
+		<button type="button" onclick="calcularPeso(); return false">Ingresar</button>
+		<br>
+	</div>
+	<br>
+
+	<div>
+		<label for="peso">Escoge un Planeta</label>
+		<br><br>
+		<select id="listaPlanetas" required>
+
+			<option value="">Planeta...</option>
+			<option value="Mercurio">Mercurio</option>
+			<option value="Venus">Venus</option>
+			<option value="Marte">Marte</option>
+			<option value="Jupiter">Júpiter</option>
+			<option value="Saturno">Saturno</option>
+			<option value="Urano">Urano</option>
+			<option value="Neptuno">Neptuno</option>
+			<option value="Pluton">Plutón</option>
+		</select>
+	</div>
+	
+
+	<script src="assets/js/archivo.js"></script>
 </body>
 </html>

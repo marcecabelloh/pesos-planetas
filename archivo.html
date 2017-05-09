@@ -1,44 +1,24 @@
-
-
-
-
-
-
-
-<body background="assets/img/sistema1.png">
-  <div id="title" align="center">
-  <h1><font face="verdana">Tu peso en otro planeta</h1>
-  <p>Calcula tu peso en otro planeta</font></p>
-  </div>
-  <br><br><br>
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="utf-8">
 	<title></title>
 </head>
-<body>
-	<h1>Tu peso en otro planeta</h1>
-	<p>Calcula tu peso en otro planeta</p>
-	
-
-	<div>
-		<label for="peso"></label>
-		<input type="text" name="pesoPlanetas" id="peso" placeholder="Escribe tu peso aquí" required>
-		<button type="button" onclick="calcularPeso(); return false">Ingresar</button>
-		<br>
+<body background="assets/img/sistema1.png">
+  <div id="title" align="center">
+  <h1><font face="verdana">Tu peso en otro planeta</h1>
+  <p>Calcula tu peso en otro planeta</font></p>
+  </div>
+  <br><br><br>
+	<div align="center">
+		<label for="peso"><b>Escribe tu peso</b></label>
+		<input type="text" align="center" name="pesoPlanetas" id="peso" placeholder="Escribe tu peso aquí" required>
+	<br>
 	</div>
 	<br>
-
-	<div>
-		<label for="peso">Escoge un Planeta</label>
-		<br><br>
+	<div align="center">
+		<label for="peso"><b>Escoge un Planeta</b></label>
 		<select id="listaPlanetas" required>
-
 			<option value="">Planeta...</option>
 			<option value="Mercurio">Mercurio</option>
 			<option value="Venus">Venus</option>
@@ -49,10 +29,9 @@
 			<option value="Neptuno">Neptuno</option>
 			<option value="Pluton">Plutón</option>
 		</select>
+		<br><br>
+			<button type="button" onclick="calcularPeso(); return false">Calcular</button>
 	</div>
-	
-
 	<script src="assets/js/archivo.js"></script>
 </body>
 </html>
-

@@ -1,24 +1,3 @@
-var g_mercurio= 3.7;
-var g_venus= 8.8;
-var g_saturno= 8.9;
-var g_urano= 8.6;
-var g_neptuno= 11;
-var g_pluton= 0.81; 
-
-
-var usuario= prompt("¿Cuál es tu peso?");
-
-/*var usuario= prompt("¿Cuál es tu peso?");
-
-var planeta= prompt("elige un planeta : 1 es mercurio, 2 es Venus, 3 es marte, 4 es jupiter, 5 es saturno, 6 es Urano, 7 es Neptuno, 8 es Plutón")
-var peso = parseInt(usuario);
-var g_tierra= 9.8;// quedaría cambiar el prompt por input y agregar las gravedades de mercurio, venus, saturno, urano, neptuno y pluton
-var g_marte= 3.7;
-var g_jupiter= 24.8;
-var pesoFinal;
-var nombre;
-*/
-
 function calcularPeso(){
   var calcularPeso = document.getElementById("peso").value;
   var elegirPlaneta = document.getElementById("listaPlanetas").value;
@@ -51,9 +30,3 @@ function calcularPeso(){
   }
 
 }
-
-/*
-pesoFinal= parseInt(pesoFinal)
-alert("tu peso en " + nombre + " es : " + pesoFinal + " kilos")
-*/
-
